@@ -1,1 +1,3 @@
-module github.com/google/subcommands
+module github.com/djdv/subcommands
+
+go 1.18
