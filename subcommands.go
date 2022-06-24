@@ -20,13 +20,14 @@ package subcommands
 
 import (
 	"context"
-	"flag"
 	"fmt"
 	"io"
 	"os"
 	"path"
 	"sort"
 	"strings"
+
+	flag "github.com/spf13/pflag"
 )
 
 // A Command represents a single command.
